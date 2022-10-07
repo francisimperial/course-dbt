@@ -1,0 +1,14 @@
+Q: How many users do we have?
+A: 130
+
+Q: On average, how many orders do we receive per hour?
+A: 7.52
+
+Q: On average, how long does an order take from being placed to being delivered?
+A: 3.89 days
+
+Q: How many users have only made one purchase? Two purchases? Three+ purchases?
+A: 25 users only made one purchase, 28 users made two purchases exactly, and 71 users made three or more purchases
+
+Q: On average, how many unique sessions do we have per hour?
+A: 1.11478
