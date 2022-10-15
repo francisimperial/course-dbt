@@ -1,0 +1,99 @@
+version: 2
+
+models:
+  - name: dim_users
+    description: User personal information and addresses
+    columns:
+      - name: user_guid
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+      - name: last_name
+      - name: email
+      - name: phone_number
+      - name: address
+      - name: state
+      - name: country
+      - name: zipcode
+      - name: created_at_utc
+      - name: updated_at_utc
+
+  - name: int_order_items_product
+    description: Order items calculations
+    columns:
+      - name: order_guid
+        tests:
+          - unique
+          - not_null
+      - name: num_of_products
+      - name: total_quantity_ordered
+
+  - name: int_sessions
+    description: summary data on sessions specified by user guids
+    columns:
+      - name: session_guid
+        tests:
+          - unique
+          - not_null
+      - name: user_guid
+        tests: 
+          - unique
+          - not_null
+      - name: session_start
+      - name: session_end
+      - name: session_duration
+      - name: total_events
+      - name: total_products
+      - name: page_views
+      - name: adds_to_cart
+      - name: checkouts
+      - name: packages_shipped
+
+  - name: fact_orders
+    description: summary of events on all orders
+    columns:
+      - name: order_guid
+        tests:
+          - unique
+          - not_null
+      - name: user_guid
+        tests: 
+          - unique
+          - not_null
+      - name: first_name
+      - name: last_name
+      - name: email
+      - name: phone_number
+      - name: address
+      - name: state
+      - name: country
+      - name: zipcode
+      - name: promo_guid as promo_type
+      - name: discount
+      - name: created_at_utc
+      - name: estimated_delivery_at_utc
+      - name: delivered_at_utc
+      - name: delivery_time_days
+      - name: order_cost
+      - name: shipping_cost
+      - name: order_total_cost
+      - name: order_status
+      - name: num_of_products
+      - name: total_quantity_ordered
+
+  - name: int_orders_product
+    description: calculations on order subtotals by product 
+    columns:
+      - name: order_guid
+        tests:
+          - unique
+          - not_null
+      - name: product_guid
+        tests: 
+          - unique
+          - not_null
+      - name: quantity
+      - name: name
+      - name: price
+      - name: product_subtotal

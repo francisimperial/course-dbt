@@ -1,0 +1,19 @@
+[0m02:28:06  Encountered an error:
+Runtime Error
+  fatal: Not a dbt project (or any of the parent directories). Missing dbt_project.yml file
+[0m02:28:06  Traceback (most recent call last):
+  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/dbt/main.py", line 191, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/dbt/main.py", line 218, in run_from_args
+    task = parsed.cls.from_args(args=parsed)
+  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/dbt/task/base.py", line 184, in from_args
+    move_to_nearest_project_dir(args)
+  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/dbt/task/base.py", line 171, in move_to_nearest_project_dir
+    nearest_project_dir = get_nearest_project_dir(args)
+  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/dbt/task/base.py", line 164, in get_nearest_project_dir
+    raise dbt.exceptions.RuntimeException(
+dbt.exceptions.RuntimeException: Runtime Error
+  fatal: Not a dbt project (or any of the parent directories). Missing dbt_project.yml file
+
