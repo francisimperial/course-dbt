@@ -2,8 +2,8 @@
 
 {{
     config(
-        target_database = target.database
-        , target_schema = target.schema 
+        target_database = 'dev_db'
+        , target_schema = 'dbt_franciswong17'
         , unique_key = 'order_id'
         , strategy = 'check'
         , check_cols = ['status']

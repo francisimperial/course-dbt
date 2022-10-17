@@ -10,7 +10,7 @@ models:
         tests:
           - unique
           - not_null
-      - name: name
+      - name: product_name
       - name: price
       - name: product_inventory
       - name: distinct_orders
