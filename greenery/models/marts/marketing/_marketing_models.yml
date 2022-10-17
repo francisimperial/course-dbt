@@ -5,7 +5,7 @@ models:
   - name: int_user_orders
     description: order aggregations by user 
     columns:
-      - name: user_id
+      - name: user_guid
         description: Primary key
         tests:
           - unique
@@ -21,7 +21,7 @@ models:
   - name: dim_users
     description: list of all the users and added information
     columns:
-      - name: user_id
+      - name: user_guid
         tests:
           - unique
           - not_null

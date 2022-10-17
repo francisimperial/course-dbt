@@ -5,7 +5,7 @@
 }}
 
 with events as (
-    select * from {{ ref(_stg__events) }}
+    select * from {{ ref('_stg__events') }}
 )
 
 select 

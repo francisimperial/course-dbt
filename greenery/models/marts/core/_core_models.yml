@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: dim_users
+  - name: int_users
     description: User personal information and addresses
     columns:
       - name: user_guid

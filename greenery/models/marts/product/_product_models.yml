@@ -1,0 +1,18 @@
+version : 2
+
+models:
+    
+  - name: dim_products
+    description: table including summary metrics by product
+    columns:
+      - name: product_guid
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+      - name: name
+      - name: price
+      - name: product_inventory
+      - name: distinct_orders
+      - name: quantity_sold
+      - name: product_revenue
