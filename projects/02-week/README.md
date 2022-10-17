@@ -13,3 +13,9 @@ from
 ```
 
 ### 2) DAG for models
+
+![dbt-dag](https://user-images.githubusercontent.com/44100072/196254336-62460071-cbb0-4391-b41c-247ad552e2f1.png)
+
+### 3) Test
+
+The only tests I included in my models were default unique and not_null tests for my guid fields.
