@@ -18,7 +18,7 @@ select
     o.order_guid,
     oi.product_guid,
     oi.quantity,
-    p.name,
+    p.name as product_name,
     p.price,
     oi.quantity * p.price as product_subtotal
 from

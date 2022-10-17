@@ -13,7 +13,7 @@ orders_product as (
 
 select 
     p.product_guid,
-    p.name,
+    p.name as product_name,
     p.price,
     coalesce(p.inventory, 0) as product_inventory,
     coalesce(count(distinct(op.order_guid)), 0) as distinct_orders,
