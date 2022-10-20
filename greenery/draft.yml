@@ -1,0 +1,40 @@
+[0m20:51:48  Running with dbt=1.2.1
+[0m20:51:49  version: 2
+
+models:
+  - name: int_sessions
+    description: ""
+    columns:
+      - name: session_guid
+        description: ""
+
+      - name: user_guid
+        description: ""
+
+      - name: session_start
+        description: ""
+
+      - name: session_end
+        description: ""
+
+      - name: session_duration
+        description: ""
+
+      - name: total_events
+        description: ""
+
+      - name: total_products
+        description: ""
+
+      - name: page_views
+        description: ""
+
+      - name: adds_to_cart
+        description: ""
+
+      - name: checkouts
+        description: ""
+
+      - name: packages_shipped
+        description: ""
+
