@@ -16,3 +16,13 @@ models:
       - name: distinct_orders
       - name: quantity_sold
       - name: product_revenue
+
+  - name: fact_product_events
+    description: table including sessions with their corresponding event types by product name
+    columns:
+      - name: session_guid
+        tests:
+          - not_null
+      - name: product_guid
+        tests:
+          - not_null

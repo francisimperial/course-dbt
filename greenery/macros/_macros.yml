@@ -1,0 +1,24 @@
+version: 2
+
+macros:
+  - name: lbs_to_kgs
+    description: 'converts lbs to kgs'
+    docs:
+      show: false
+    arguments:
+      - name: column_name
+
+  - name: grant
+    description: 'grants viewing privileges to specific users'
+    docs: 
+      show: false
+    arguments:
+      - name: role
+
+  - name: positive_values
+    description: 'tests if values in column_name are not positive'
+    docs: 
+      show: false
+    arguments:
+      - name: model 
+      - name: column_name

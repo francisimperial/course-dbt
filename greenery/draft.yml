@@ -1,40 +1,6 @@
-[0m20:51:48  Running with dbt=1.2.1
-[0m20:51:49  version: 2
-
-models:
-  - name: int_sessions
-    description: ""
-    columns:
-      - name: session_guid
-        description: ""
-
-      - name: user_guid
-        description: ""
-
-      - name: session_start
-        description: ""
-
-      - name: session_end
-        description: ""
-
-      - name: session_duration
-        description: ""
-
-      - name: total_events
-        description: ""
-
-      - name: total_products
-        description: ""
-
-      - name: page_views
-        description: ""
-
-      - name: adds_to_cart
-        description: ""
-
-      - name: checkouts
-        description: ""
-
-      - name: packages_shipped
-        description: ""
-
+[0m00:32:28  Running with dbt=1.2.1
+[0m00:32:29  Encountered an error while running operation: Compilation Error in macro generate_model_yaml (macros/generate_model_yaml.sql)
+  Macro 'macro.codegen.generate_model_yaml' (macros/generate_model_yaml.sql) depends on a node named 'lbs_to_kgs' which was not found
+  
+  > in macro generate_model_yaml (macros/generate_model_yaml.sql)
+  > called by macro generate_model_yaml (macros/generate_model_yaml.sql)
