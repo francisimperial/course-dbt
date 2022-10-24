@@ -30,7 +30,7 @@ resulting table:
 
 ```
 PRODUCT_NAME	        CONVERSION_RATE
-String of pearls	    0.6875
+String of pearls	0.6875
 Bamboo	                0.626866
 Arrow Head	            0.619048
 Calathea Makoyana	    0.603774
