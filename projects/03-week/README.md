@@ -47,9 +47,9 @@ Devil's Ivy	        0.533333
 Monstera	        0.530612
 Peace Lily	        0.530303
 Alocasia Polly	        0.529412
-Pilea Peperomioides	    0.525424
-Angel Wings Begonia	    0.52459
-Jade Plant	            0.521739
+Pilea Peperomioides	0.525424
+Angel Wings Begonia	0.52459
+Jade Plant	        0.521739
 Philodendron	        0.516129
 Ficus	                0.514706
 Birds Nest Fern	        0.512821
