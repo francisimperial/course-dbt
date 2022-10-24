@@ -32,20 +32,20 @@ resulting table:
 PRODUCT_NAME	        CONVERSION_RATE
 String of pearls	0.6875
 Bamboo	                0.626866
-Arrow Head	            0.619048
-Calathea Makoyana	    0.603774
+Arrow Head	        0.619048
+Calathea Makoyana	0.603774
 Rubber Plant	        0.592593
 Cactus	                0.581818
 Majesty Palm	        0.567164
-ZZ Plant	            0.555556
-Aloe Vera	            0.553846
-Bird of Paradise	    0.55
-Dragon Tree	            0.548387
-Boston Fern	            0.539683
+ZZ Plant	        0.555556
+Aloe Vera	        0.553846
+Bird of Paradise	0.55
+Dragon Tree	        0.548387
+Boston Fern	        0.539683
 Fiddle Leaf Fig	        0.535714
-Devil's Ivy	            0.533333
-Monstera	            0.530612
-Peace Lily	            0.530303
+Devil's Ivy	        0.533333
+Monstera	        0.530612
+Peace Lily	        0.530303
 Alocasia Polly	        0.529412
 Pilea Peperomioides	    0.525424
 Angel Wings Begonia	    0.52459
@@ -56,8 +56,8 @@ Birds Nest Fern	        0.512821
 Spider Plant	        0.508475
 Pink Anthurium	        0.5
 Orchid	                0.493333
-Snake Plant	            0.465753
-Money Tree	            0.464286
+Snake Plant	        0.465753
+Money Tree	        0.464286
 Ponytail Palm	        0.428571
 Pothos	                0.393443
 ```
